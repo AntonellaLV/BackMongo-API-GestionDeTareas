@@ -1,4 +1,5 @@
 # BackMongo-API-GestionDeTareas
+
 # API de Gestión de Tareas
 
 Esta es una API sencilla para gestionar tareas, construida con Node.js, Express y MongoDB. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una colección de tareas.
@@ -17,21 +18,21 @@ Esta es una API sencilla para gestionar tareas, construida con Node.js, Express 
    git clone https://github.com/tu_usuario/tu_repositorio.git
    cd tu_repositorio
    
-Instalar Dependencias:
+**Instalar Dependencias:**
 
 npm install
 
-Configurar Variables de Entorno:
+**Configurar Variables de Entorno:**
 
-Crea un archivo .env con la URI de MongoDB:
+**Crea un archivo .env con la URI de MongoDB:**
 
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster0-back.blckp.mongodb.net/mydatabase
 
-Iniciar el Servidor:
+**Iniciar el Servidor:**
 
 node app.js
 
-Endpoints:
+**Endpoints:**
 
 GET /api/tasks: Obtener todas las tareas.
 
